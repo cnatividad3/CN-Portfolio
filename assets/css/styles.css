@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+ /* home */
+#home {
+  height: 700px;
+  background-color: pink;
+  text-align: center;
+}
+.homeContent{
+  padding-top: 18%;
+}
+ /* content */
+#about {
+  height: 700px;
+  background-color: yellow;
+  text-align: center;
+}
+.aboutContent{
+  padding-top: 10%;
+}
+/* projects */
+#projects {
+  height: 700px;
+  background-color: grey;
+}
+/* .projectsContent{
+  padding-top: 18%;
+} */
+/* contact page */
+#contact {
+  height: 700px;
+  background-color: thistle;
+}
+/* .contactContent{
+  
+} */
+ /* navbar */
+.navbar {
+background-color: none;
+}
+
+/* hover effect */
+
+:root {
+  --mainColor: white;
+}
+
+.nav-link {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .3s;
+}
+
+.nav-link:hover {
+  background-size: 4px 50px;
+}
