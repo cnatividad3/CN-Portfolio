@@ -2,26 +2,67 @@ html {
   scroll-behavior: smooth;
 }
  /* home */
+ /* .btn1{
+   margin-bottom: 20px;
+   border-radius: 5%;
+ } */
+
+ .btnWork{
+   padding-bottom: 30px;
+   
+ }
+ .btnProj{
+  border-radius: 2%;
+ }
+
 #home {
-  height: 700px;
-  background-color: pink;
+  height: 750px;
   text-align: center;
+  background: url("../images/keyboardBG.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 .homeContent{
-  padding-top: 18%;
+  position: relative;
+  top: 38px;
+  width: 50%;
+  background-color: rgb(0, 0, 0, .8);
+  color: white;
+  margin: auto;
+  border-radius: 1%;
 }
- /* content */
-#about {
-  height: 700px;
-  background-color: yellow;
-  text-align: center;
+
+.greeting{
+  padding-top: 20px;
 }
-.aboutContent{
-  padding-top: 10%;
+
+.profileImage {
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+  height: 155px;
+  width: 140px;
 }
+
+.ms{
+  border-bottom: 1px solid white;
+  margin-right: 76.1%;
+}
+
+.statement{
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  text-align: left;
+}
+
 /* projects */
 #projects {
-  height: 700px;
+  height: 900px;
   background-color: grey;
 }
 /* .projectsContent{
@@ -40,10 +81,16 @@ html {
 background-color: none;
 }
 
+#navbarNav{
+font-size: 17.6px;
+padding-bottom: 10px;
+margin-left: 50px;
+}
+
 /* hover effect */
 
 :root {
-  --mainColor: white;
+  --mainColor: rgb(0, 0, 0, .6);
 }
 
 .nav-link {
@@ -54,7 +101,7 @@ background-color: none;
      );
     background-position: 0 100%;
     background-repeat: repeat-x;
-    background-size: 4px 4px;
+    background-size: 3px 3px;
   color: #000;
   text-decoration: none;
   transition: background-size .3s;
