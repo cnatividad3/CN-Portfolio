@@ -1,19 +1,57 @@
 html {
   scroll-behavior: smooth;
 }
- /* home */
- /* .btn1{
-   margin-bottom: 20px;
-   border-radius: 5%;
- } */
 
  .btnWork{
    padding-bottom: 30px;
-   
  }
  .btnProj{
   border-radius: 2%;
  }
+
+ a{
+  color: black;
+ }
+
+  /* navbar */
+
+.navbar {
+  background-color: none;
+  }
+  
+  #navbarNav{
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  }
+  
+  /* hover effect */
+  
+  :root {
+    --mainColor: rgb(0, 0, 0, .4);
+  }
+  
+  .nav-link {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0 10px; 
+    
+  }
+  
+  .nav-link:hover {
+    background-color: #ffffff;
+    padding: 10px;
+  }
+
+  /* navbar scroll effect */
+  
+  /* .navbar.scrolled {
+    background-color: rgb(0, 0, 0, .5) !important;
+    transition: background-color 200ms linear;
+  }
+   */
 
 #home {
   height: 750px;
@@ -61,52 +99,53 @@ html {
 }
 
 /* projects */
+
+.card{
+  -webkit-box-shadow: -5px 6px 26px 1px rgba(0,0,0,0.7);
+-moz-box-shadow: -5px 6px 26px 1px rgba(0,0,0,0.7);
+box-shadow: -5px 6px 26px 1px rgba(0,0,0,0.7);
+}
+.card-img-top{
+padding-top: 10px;
+height: 190px;
+}
+ 
 #projects {
-  height: 900px;
-  background-color: grey;
+  height: 1000px;
+  background-color:#b3b3b3;
 }
-/* .projectsContent{
-  padding-top: 18%;
-} */
+
+.projectsContent{
+  width: 82%;
+  padding-left: 150px;
+  padding-top: 4%;
+} 
+
+
 /* contact page */
+
+#chat {
+  margin-left: 17.5%;
+  position: relative;
+  top: 21%;
+}
 #contact {
-  height: 700px;
-  background-color: thistle;
-}
-/* .contactContent{
-  
-} */
- /* navbar */
-.navbar {
-background-color: none;
+  height: 800px;
+  background-color:#999999;
 }
 
-#navbarNav{
-font-size: 17.6px;
-padding-bottom: 10px;
-margin-left: 50px;
+.contactContent{
+margin-top: 11%;
+display: flex;
+justify-content: center;
 }
 
-/* hover effect */
-
-:root {
-  --mainColor: rgb(0, 0, 0, .6);
+.form{
+  flex: 0 0 65%;
 }
 
-.nav-link {
-  background:
-     linear-gradient(
-       to bottom, var(--mainColor) 0%,
-       var(--mainColor) 100%
-     );
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 3px 3px;
-  color: #000;
-  text-decoration: none;
-  transition: background-size .3s;
-}
-
-.nav-link:hover {
-  background-size: 4px 50px;
+.contactInfo{
+  padding-left: 30px;
+  flex: 1;
+  line-height: 10px;
 }
