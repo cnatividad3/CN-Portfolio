@@ -2,52 +2,51 @@ html {
   scroll-behavior: smooth;
 }
 
- .btnWork{
-   padding-bottom: 30px;
- }
- .btnProj{
+.btnWork {
+  padding-bottom: 30px;
+}
+.btnProj {
   border-radius: 2%;
- }
+}
 
- a{
+a {
   color: black;
- }
+}
 
-  /* navbar */
+/* navbar */
 
 .navbar {
   background-color: none;
-  }
-  
-  #navbarNav{
+}
+
+#navbarNav {
   font-size: 20px;
   padding-bottom: 10px;
   margin-left: 50px;
-  }
-  
-  /* hover effect */
-  
-  :root {
-    --mainColor: rgb(0, 0, 0, .4);
-  }
-  
-  .nav-link {
-    transition: 0.4s;
-    color: #ffffff;
-    font-size: 18px;
-    text-decoration: none;
-    padding: 0 10px; 
-    
-  }
-  
-  .nav-link:hover {
-    background-color: #ffffff;
-    padding: 10px;
-  }
+}
 
-  /* navbar scroll effect */
-  
-  /* .navbar.scrolled {
+/* hover effect */
+
+:root {
+  --mainColor: rgb(0, 0, 0, 0.4);
+}
+
+.nav-link {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.nav-link:hover {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/* navbar scroll effect */
+
+/* .navbar.scrolled {
     background-color: rgb(0, 0, 0, .5) !important;
     transition: background-color 200ms linear;
   }
@@ -56,24 +55,24 @@ html {
 #home {
   height: 750px;
   text-align: center;
-  background: url("../images/keyboardBG.png") no-repeat center center fixed; 
+  background: url("../images/keyboardBG.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.homeContent{
+.homeContent {
   position: relative;
   top: 38px;
   width: 50%;
-  background-color: rgb(0, 0, 0, .8);
+  background-color: rgb(0, 0, 0, 0.8);
   color: white;
   margin: auto;
   border-radius: 1%;
 }
 
-.greeting{
+.greeting {
   padding-top: 20px;
 }
 
@@ -85,12 +84,12 @@ html {
   width: 140px;
 }
 
-.ms{
+.ms {
   border-bottom: 1px solid white;
   margin-right: 76.1%;
 }
 
-.statement{
+.statement {
   font-size: 15px;
   padding-left: 20px;
   padding-right: 20px;
@@ -100,51 +99,64 @@ html {
 
 /* projects */
 
-.card{
-  -webkit-box-shadow: -5px 6px 26px 1px rgba(0,0,0,0.7);
--moz-box-shadow: -5px 6px 26px 1px rgba(0,0,0,0.7);
-box-shadow: -5px 6px 26px 1px rgba(0,0,0,0.7);
+.card {
+  -webkit-box-shadow: -5px 6px 26px 1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: -5px 6px 26px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: -5px 6px 26px 1px rgba(0, 0, 0, 0.7);
 }
-.card-img-top{
-padding-top: 10px;
-height: 190px;
-}
- 
-#projects {
-  height: 1000px;
-  background-color:#b3b3b3;
+.card-img-top {
+  padding-top: 10px;
+  height: 190px;
 }
 
-.projectsContent{
+#projects {
+  height: 1000px;
+  background-color: #b3b3b3;
+}
+
+.projectsContent {
   width: 82%;
   padding-left: 150px;
   padding-top: 4%;
-} 
+}
 
+.card-text {
+  font-size: 14px;
+}
+
+.link1 {
+  margin-top: 15%;
+}
+.link5 {
+  margin-top: 23%;
+}
+.link6 {
+  margin-top: 31%;
+}
 
 /* contact page */
 
 #chat {
   margin-left: 17.5%;
   position: relative;
-  top: 21%;
+  top: 18%;
 }
 #contact {
   height: 800px;
-  background-color:#999999;
+  background-color: #999999;
 }
 
-.contactContent{
-margin-top: 11%;
-display: flex;
-justify-content: center;
+.contactContent {
+  margin-top: 11%;
+  display: flex;
+  justify-content: center;
 }
 
-.form{
+.form {
   flex: 0 0 65%;
 }
 
-.contactInfo{
+.contactInfo {
   padding-left: 30px;
   flex: 1;
   line-height: 10px;
