@@ -1,5 +1,5 @@
 # Portfolio
 
-Profession Portfolio for Christopher Natividad
+Professional Portfolio for Christopher Natividad
 
 View here: https://cnatividad3.github.io/CN-Portfolio/
