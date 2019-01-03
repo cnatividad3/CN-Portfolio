@@ -1,3 +1,5 @@
 # Portfolio
 
-Profession Portfolio made by Christopher Natividad
+Profession Portfolio for Christopher Natividad
+
+View here: https://cnatividad3.github.io/CN-Portfolio/

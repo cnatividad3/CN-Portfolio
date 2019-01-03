@@ -7,6 +7,11 @@ html {
 }
 .btnProj {
   border-radius: 2%;
+  border-color: #009999;
+  background-color: #009999;
+}
+#projText{
+  color: #ffffff !important;
 }
 
 a {
@@ -17,6 +22,7 @@ a {
 
 .navbar {
   background-color: none;
+  font-family: "Oswald", sans-serif;
 }
 
 #navbarNav {
@@ -34,7 +40,7 @@ a {
 .nav-link {
   transition: 0.4s;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 24px;
   text-decoration: none;
   padding: 0 10px;
 }
@@ -43,14 +49,6 @@ a {
   background-color: #ffffff;
   padding: 10px;
 }
-
-/* navbar scroll effect */
-
-/* .navbar.scrolled {
-    background-color: rgb(0, 0, 0, .5) !important;
-    transition: background-color 200ms linear;
-  }
-   */
 
 #home {
   height: 750px;
@@ -74,6 +72,10 @@ a {
 
 .greeting {
   padding-top: 20px;
+  font-family: "Oswald", sans-serif;
+  border-bottom: 3px solid #009999;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .profileImage {
@@ -111,13 +113,16 @@ a {
 
 #projects {
   height: 1000px;
-  background-color: #b3b3b3;
+  background-color: #009999;
 }
 
 .projectsContent {
   width: 82%;
   padding-left: 150px;
   padding-top: 4%;
+}
+.projLink {
+  color: white !important;
 }
 
 .card-text {
@@ -136,10 +141,23 @@ a {
 
 /* contact page */
 
+.btn-primary {
+  background-color: #009999;
+  border-color: #009999 !important;
+}
 #chat {
   margin-left: 17.5%;
   position: relative;
   top: 18%;
+  font-family: "Oswald", sans-serif;
+  border-bottom: 3px solid #009999;
+  margin-right: 72%;
+}
+
+#ci {
+  font-family: "Oswald", sans-serif;
+  border-bottom: 3px solid #009999;
+  margin-right: 52%;
 }
 #contact {
   height: 800px;
