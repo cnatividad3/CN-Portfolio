@@ -88,7 +88,8 @@ a {
 
 .ms {
   border-bottom: 2px solid #009999;
-  margin-right: 76.1%;
+  margin-right: 80%;
+  font-family: "Oswald", sans-serif;
 }
 
 .statement {
@@ -109,6 +110,11 @@ a {
 .card-img-top {
   padding-top: 10px;
   height: 190px;
+}
+
+.card-title{
+  border-bottom: 2px solid #009999;
+  text-align: center;
 }
 
 #projects {
