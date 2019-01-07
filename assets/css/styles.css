@@ -127,6 +127,9 @@ a {
 }
 
 @media (min-width: 0px) {
+  .homeContent {
+    background-color: black !important;
+  }
   .card-columns {
     column-count: 1;
     margin-top: 10%;
@@ -177,6 +180,9 @@ a {
 }
 
 @media (min-width: 576px) {
+  .homeContent {
+    background-color: black !important;
+  }
   .card-columns {
     column-count: 2;
   }
@@ -209,6 +215,9 @@ a {
 }
 
 @media (min-width: 768px) {
+  .homeContent {
+    background-color: rgb(0, 0, 0, 0.8) !important;
+  }
   .card-columns {
     column-count: 2;
     margin-top: 7%;
@@ -243,6 +252,9 @@ a {
 }
 
 @media (min-width: 992px) {
+  .homeContent {
+    background-color:rgb(0, 0, 0, 0.8) !important;
+  }
   .navbar {
     background-color: transparent !important;
     font-family: "Oswald", sans-serif;
@@ -269,6 +281,9 @@ a {
 }
 
 @media (min-width: 1200px) {
+  .homeContent {
+    background-color:rgb(0, 0, 0, 0.8) !important;
+  }
   .navbar {
     background-color: transparent !important;
     font-family: "Oswald", sans-serif;
@@ -372,21 +387,7 @@ a {
   background-color: #009999;
   border-color: #009999 !important;
 }
-/* #chat {
-  margin-left: 17.5%;
-  position: relative;
-  top: 18%;
-  font-family: "Oswald", sans-serif;
-  border-bottom: 3px solid #009999;
-  margin-right: 72%;
-} */
 
-/* #ci {
-  font-family: "Oswald", sans-serif;
-  border-bottom: 3px solid #009999;
-  line-height: 45px;
-  margin-right: 52%;
-} */
 #contact {
   height: 800px;
   background-color: #999999;
