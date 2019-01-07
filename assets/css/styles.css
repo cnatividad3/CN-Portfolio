@@ -1,3 +1,10 @@
+/* media queries */
+/* xs less than 576
+sm 576 and up
+md 768 and up
+lg 992 and up
+xl 1200 and up */
+
 html {
   scroll-behavior: smooth;
 }
@@ -25,10 +32,19 @@ a {
   font-family: "Oswald", sans-serif;
 }
 
+.navbar-toggler{
+  border: 1px solid #009999 !important;
+}
+
 #navbarNav {
   font-size: 20px;
   padding-bottom: 10px;
   margin-left: 50px;
+}
+
+.collapse{
+  border-radius: 2%;
+  padding-left: 10px;
 }
 
 /* hover effect */
@@ -50,6 +66,8 @@ a {
   padding: 10px;
 }
 
+/* home */
+
 #home {
   height: 750px;
   text-align: center;
@@ -63,19 +81,21 @@ a {
 .homeContent {
   position: relative;
   top: 38px;
-  width: 50%;
+  /* width: 50%; */
+  width: 100%;
   background-color: rgb(0, 0, 0, 0.8);
   color: white;
   margin: auto;
   border-radius: 1%;
 }
 
+
 .greeting {
   padding-top: 20px;
   font-family: "Oswald", sans-serif;
   border-bottom: 3px solid #009999;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 11%;
+  margin-right: 11%;
 }
 
 .profileImage {
@@ -88,7 +108,7 @@ a {
 
 .ms {
   border-bottom: 2px solid #009999;
-  margin-right: 80%;
+  margin-right: 82%;
   font-family: "Oswald", sans-serif;
 }
 
@@ -101,6 +121,192 @@ a {
 }
 
 /* projects */
+
+#projects {
+  height: 1000px;
+  background-color: #009999;
+}
+
+@media (min-width: 0px) {
+  .card-columns {
+      column-count: 1;
+      margin-top: 10%;
+  }
+  .greeting {
+    font-size: 22px !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+  }
+  #home{
+    height: 820px !important;
+  }
+
+  .homeContent{
+    margin-top: 18% !important;
+  }
+
+  .intro{
+    font-size: 18px !important;
+  }
+  .ms{
+    font-size: 17px !important;
+    margin-right: 65%;
+  }
+  .navbar{
+    background-color: #999999 !important;
+  }
+
+  #projects {
+    height: 2500px !important;
+    background-color: #009999;
+  }
+  /* contact */
+  #contact {
+    height: 900px !important;
+  }
+
+  .contactContent{
+    padding-top: 20% !important;
+  }
+ .contactInfo{
+   padding-top: 10% !important;
+ }
+}
+
+ @media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+
+    .greeting {
+      font-size: 33px !important;
+      margin-left: 5% !important;
+      margin-right: 5% !important;
+    }
+    .ms{
+      font-size: 20px !important;
+      margin-right: 73% !important;
+    }
+
+    #projects {
+      height: 1400px !important;
+      background-color: #009999;
+    }
+    /* contact */
+    #contact {
+      height: 900px !important;
+    }
+    .contactContent{
+      padding-top: 10% !important;
+    }
+  }
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+        margin-top: 7%;
+    }
+
+    .greeting {
+      font-size: 30px !important;
+      margin-left: 3% !important;
+      margin-right: 3% !important;
+    }
+
+    #home{
+      height: 800px !important;
+    }
+    .homeContent{
+      margin-top: 0% !important;
+    }
+
+    .ms{
+      font-size: 20px !important;
+      margin-right: 72%;
+    }
+
+    #projects {
+      height: 1400px !important;
+    }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    background-color: transparent !important;
+    font-family: "Oswald", sans-serif;
+  }
+    .card-columns {
+        column-count: 3;
+        margin-top: 7%;
+    }
+    .homeContent{
+      margin-top: 0% !important;
+    }
+    .greeting {
+      font-size: 33px !important;
+      margin-left: 5% !important;
+      margin-right: 5% !important;
+    }
+    .ms{
+      font-size: 20px !important;
+      margin-right: 73% !important;
+    }
+    #projects {
+      height: 1100px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    background-color: transparent !important;
+    font-family: "Oswald", sans-serif;
+  }
+    .card-columns {
+        column-count: 3;
+        margin-top: 7%;
+    }
+
+    .homeContent{
+      margin-top: 0% !important;
+    }
+    .greeting {
+      font-size: 48px !important;
+      margin-left: 4% !important;
+      margin-right: 4% !important;
+    }
+    .intro{
+      font-size: 26px !important;
+    }
+    .ms{
+      font-size: 25px !important;
+      margin-right: 78% !important;
+    }
+
+    .contactContent {
+      display: flex;
+      justify-content: center;
+    } 
+    
+    .form {
+      flex: 0 0 65%;
+    }
+
+    #contact {
+      height: 600px;
+      background-color: #999999;
+    }
+    
+    .contactInfo {
+      padding-left: 30px;
+      flex: 1;
+      line-height: 10px;
+    }
+    
+}
+
+.cardStack{
+  margin: auto;
+}
 
 .card {
   -webkit-box-shadow: -5px 6px 26px 1px rgba(0, 0, 0, 0.7);
@@ -122,11 +328,6 @@ a {
   background-color: #009999;
 }
 
-.projectsContent {
-  width: 82%;
-  padding-left: 150px;
-  padding-top: 4%;
-}
 .projLink {
   color: white !important;
 }
@@ -135,54 +336,30 @@ a {
   font-size: 14px;
 }
 
-.link1 {
-  margin-top: 15%;
-}
-.link5 {
-  margin-top: 23%;
-}
-.link6 {
-  margin-top: 31%;
-}
-
-/* contact page */
+  /* contact page */
 
 .btn-primary {
   background-color: #009999;
   border-color: #009999 !important;
 }
-#chat {
+/* #chat {
   margin-left: 17.5%;
   position: relative;
   top: 18%;
   font-family: "Oswald", sans-serif;
   border-bottom: 3px solid #009999;
   margin-right: 72%;
-}
+} */
 
-#ci {
+/* #ci {
   font-family: "Oswald", sans-serif;
   border-bottom: 3px solid #009999;
   line-height: 45px;
   margin-right: 52%;
-}
+} */
 #contact {
   height: 800px;
   background-color: #999999;
 }
 
-.contactContent {
-  margin-top: 11%;
-  display: flex;
-  justify-content: center;
-}
 
-.form {
-  flex: 0 0 65%;
-}
-
-.contactInfo {
-  padding-left: 30px;
-  flex: 1;
-  line-height: 10px;
-}
