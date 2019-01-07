@@ -32,7 +32,7 @@ a {
   font-family: "Oswald", sans-serif;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: 1px solid #009999 !important;
 }
 
@@ -42,7 +42,7 @@ a {
   margin-left: 50px;
 }
 
-.collapse{
+.collapse {
   border-radius: 2%;
   padding-left: 10px;
 }
@@ -89,7 +89,6 @@ a {
   border-radius: 1%;
 }
 
-
 .greeting {
   padding-top: 20px;
   font-family: "Oswald", sans-serif;
@@ -129,30 +128,30 @@ a {
 
 @media (min-width: 0px) {
   .card-columns {
-      column-count: 1;
-      margin-top: 10%;
+    column-count: 1;
+    margin-top: 10%;
   }
   .greeting {
     font-size: 22px !important;
     margin-left: 3% !important;
     margin-right: 3% !important;
   }
-  #home{
+  #home {
     height: 820px !important;
   }
 
-  .homeContent{
+  .homeContent {
     margin-top: 18% !important;
   }
 
-  .intro{
+  .intro {
     font-size: 18px !important;
   }
-  .ms{
+  .ms {
     font-size: 17px !important;
     margin-right: 65%;
   }
-  .navbar{
+  .navbar {
     background-color: #999999 !important;
   }
 
@@ -165,69 +164,82 @@ a {
     height: 900px !important;
   }
 
-  .contactContent{
+  .contactContent {
     padding-top: 20% !important;
   }
- .contactInfo{
-   padding-top: 10% !important;
- }
+  .contactInfo {
+    padding-top: 10% !important;
+  }
+  #ci {
+    border-bottom: 2px solid #009999;
+    margin-right: 35%;
+  }
 }
 
- @media (min-width: 576px) {
-    .card-columns {
-        column-count: 2;
-    }
-
-    .greeting {
-      font-size: 33px !important;
-      margin-left: 5% !important;
-      margin-right: 5% !important;
-    }
-    .ms{
-      font-size: 20px !important;
-      margin-right: 73% !important;
-    }
-
-    #projects {
-      height: 1400px !important;
-      background-color: #009999;
-    }
-    /* contact */
-    #contact {
-      height: 900px !important;
-    }
-    .contactContent{
-      padding-top: 10% !important;
-    }
+@media (min-width: 576px) {
+  .card-columns {
+    column-count: 2;
   }
 
+  .greeting {
+    font-size: 33px !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .ms {
+    font-size: 20px !important;
+    margin-right: 73% !important;
+  }
+
+  #projects {
+    height: 1400px !important;
+    background-color: #009999;
+  }
+  /* contact */
+  #contact {
+    height: 900px !important;
+  }
+  .contactContent {
+    padding-top: 10% !important;
+  }
+  #ci {
+    border-bottom: 2px solid #009999;
+    margin-right: 46%;
+  }
+}
+
 @media (min-width: 768px) {
-    .card-columns {
-        column-count: 2;
-        margin-top: 7%;
-    }
+  .card-columns {
+    column-count: 2;
+    margin-top: 7%;
+  }
 
-    .greeting {
-      font-size: 30px !important;
-      margin-left: 3% !important;
-      margin-right: 3% !important;
-    }
+  .greeting {
+    font-size: 30px !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+  }
 
-    #home{
-      height: 800px !important;
-    }
-    .homeContent{
-      margin-top: 0% !important;
-    }
+  #home {
+    height: 800px !important;
+  }
+  .homeContent {
+    margin-top: 0% !important;
+  }
 
-    .ms{
-      font-size: 20px !important;
-      margin-right: 72%;
-    }
+  .ms {
+    font-size: 20px !important;
+    margin-right: 72%;
+  }
 
-    #projects {
-      height: 1400px !important;
-    }
+  #projects {
+    height: 1400px !important;
+  }
+
+  #ci {
+    border-bottom: 2px solid #009999;
+    margin-right: 68%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -235,25 +247,25 @@ a {
     background-color: transparent !important;
     font-family: "Oswald", sans-serif;
   }
-    .card-columns {
-        column-count: 3;
-        margin-top: 7%;
-    }
-    .homeContent{
-      margin-top: 0% !important;
-    }
-    .greeting {
-      font-size: 33px !important;
-      margin-left: 5% !important;
-      margin-right: 5% !important;
-    }
-    .ms{
-      font-size: 20px !important;
-      margin-right: 73% !important;
-    }
-    #projects {
-      height: 1100px !important;
-    }
+  .card-columns {
+    column-count: 3;
+    margin-top: 7%;
+  }
+  .homeContent {
+    margin-top: 0% !important;
+  }
+  .greeting {
+    font-size: 33px !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .ms {
+    font-size: 20px !important;
+    margin-right: 73% !important;
+  }
+  #projects {
+    height: 1000px !important;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -261,50 +273,68 @@ a {
     background-color: transparent !important;
     font-family: "Oswald", sans-serif;
   }
-    .card-columns {
-        column-count: 3;
-        margin-top: 7%;
-    }
+  .card-columns {
+    column-count: 3;
+    margin-top: 7%;
+    margin-right: 10% !important;
+  }
 
-    .homeContent{
-      margin-top: 0% !important;
-    }
-    .greeting {
-      font-size: 48px !important;
-      margin-left: 4% !important;
-      margin-right: 4% !important;
-    }
-    .intro{
-      font-size: 26px !important;
-    }
-    .ms{
-      font-size: 25px !important;
-      margin-right: 78% !important;
-    }
+  .homeContent {
+    margin-top: 0% !important;
+  }
+  .greeting {
+    font-size: 48px !important;
+    margin-left: 4% !important;
+    margin-right: 4% !important;
+  }
+  .intro {
+    font-size: 26px !important;
+  }
+  .ms {
+    font-size: 25px !important;
+    margin-right: 78% !important;
+  }
 
-    .contactContent {
-      display: flex;
-      justify-content: center;
-    } 
-    
-    .form {
-      flex: 0 0 65%;
-    }
+  /* contact page */
+  .contactContent {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
 
-    #contact {
-      height: 600px;
-      background-color: #999999;
-    }
-    
-    .contactInfo {
-      padding-left: 30px;
-      flex: 1;
-      line-height: 10px;
-    }
-    
+  .form {
+    flex: 0 0 65%;
+    position: relative;
+    bottom: 80px;
+  }
+
+  #contact {
+    height: 550px !important;
+    background-color: #999999;
+  }
+
+  .contactInfo {
+    padding-left: 30px;
+    flex: 1;
+    line-height: 10px;
+    position: relative;
+    bottom: 120px;
+  }
+  #chat {
+    font-family: "Oswald", sans-serif;
+    border-bottom: 2px solid #009999;
+    margin-right: 74%;
+  }
+
+  #ci {
+    font-family: "Oswald", sans-serif;
+    border-bottom: 3px solid #009999;
+    line-height: 45px;
+    margin-right: 65%;
+  }
 }
 
-.cardStack{
+.cardStack {
   margin: auto;
 }
 
@@ -318,7 +348,7 @@ a {
   height: 190px;
 }
 
-.card-title{
+.card-title {
   border-bottom: 2px solid #009999;
   text-align: center;
 }
@@ -336,7 +366,7 @@ a {
   font-size: 14px;
 }
 
-  /* contact page */
+/* contact page */
 
 .btn-primary {
   background-color: #009999;
@@ -361,5 +391,3 @@ a {
   height: 800px;
   background-color: #999999;
 }
-
-
